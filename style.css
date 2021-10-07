@@ -93,15 +93,15 @@ section
 {
     background: fixed ;
     background-position: center;
-    background-size:cover;
+    background-size:auto 100%;
 
     background-image: url(imagenes/nor.jpeg);
     background-repeat: no-repeat;
     
     color: white;
-    align-items:flex-end;
+    align-items:center;
     display: grid;
-    justify-content: center;
+    justify-content:center;
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -138,6 +138,7 @@ section
 }
 .panels
 {
+    width: 190px;
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.144);
     align-items: center;
