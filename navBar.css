@@ -21,6 +21,7 @@ body{
     -ms-overflow-style: none;
     scrollbar-width: none ;
     overflow-y: scroll ;
+   
 }
 body::-webkit-scrollbar
 {
@@ -42,7 +43,6 @@ body::-webkit-scrollbar
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .logo h4
 {
@@ -113,9 +113,7 @@ body::-webkit-scrollbar
         display:none;
     }
 }
-
-
-@media only screen and (min-width:0px) and (max-width:780px) /* estilos para mobil */
+@media only screen and (min-width:481px) and (max-width:780px) 
 {
     body
     {
@@ -151,6 +149,11 @@ body::-webkit-scrollbar
     transition: transform 0.25s ease-in;
     visibility: visible;
 }
+@media only screen and (min-width:150px) and (max-width:480px) /* estilos para mobil */
+{
+    
+}
+
 
 
 @keyframes navLinkFade
