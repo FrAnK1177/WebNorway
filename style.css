@@ -16,62 +16,7 @@ body
 {
     
 }
-.nav-bar
-{
-    position: fixed;
-    top: 0;
-    height: 6vh;
-    width: 100vw;
-    z-index: 100;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    backdrop-filter: blur(5PX);
-    -webkit-backdrop-filter: blur(5px);
-}
-.logo
-{
-    display: flex;
-    align-items: center;
-}
-.logo img
-{
-    filter:brightness(0%) invert(100%);
-    height: 40px;
-    margin: 0px 10px 0px 20px;
-}
-ul
-{
-    list-style: none;
-    display: flex;
-}
-li
-{
-    margin: 5px;
-}
-.b
-{
-    height: 6vh;
-    width: 6vh;
-    background: rgba(255, 255, 255, 0.151);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-backdrop-filter: blur(2px);
-    border-radius: 0px 0px 0px 10px;
-}
-.burgir
-{
-    
-}
-.line
-{
-    background: rgb(255, 255, 255);
-    width: 20px;
-    height: 3px;
-    margin: 4px;
-}
+
 .social
 {
     top: 20vh;
