@@ -115,7 +115,7 @@ body::-webkit-scrollbar
 }
 
 
-@media only screen and (min-width:0px) and (max-width:640px) /* estilos para mobil */
+@media only screen and (min-width:0px) and (max-width:780px) /* estilos para mobil */
 {
     body
     {
